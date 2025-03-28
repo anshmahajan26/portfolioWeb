@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANSH Porfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="app.js" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/images.png" alt="" class="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#servives">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <div>
+            <img class="img1" src="images/img.png" alt="img" />
+          </div>
+          <div>
+            <p>Fullstack Developer</p>
+            <h1>
+              Hi, I'm <span>Ansh</span> <br />
+              Mahajan From India
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!---------------------------About------------------------------>
+
+    <div id="about">
+      <div class="container-about">
+        <div class="col1">
+          <h1>About me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            tenetur incidunt est aliquam? Praesentium libero vero sapiente
+            consectetur quasi doloremque quis. Necessitatibus dolor pariatur
+            fuga, ipsam deleniti tempore cupiditate eligendi unde delectus ipsa
+            sit dolore.
+          </p>
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing Web/App</li>
+              <li><span>Web Development</span><br />Web app development</li>
+              <li>
+                <span>App Development</span><br />Building Andrioid/ios Apps
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li>
+                <span>2021-Current</span><br />UI/UX design Training at Amazone
+              </li>
+              <li>
+                <span>2019-2021</span><br />UI/UX Design Executive at CoinDcx
+              </li>
+              <li><span>2016-2017</span><br />Internship at ekart</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2024</span><br />Persuing B.Tech 3rd year</li>
+              <li><span>2022</span><br />HSC</li>
+              <li><span>2020</span><br />SSC</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col2">
+          <img src="./images/about-removebg.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!---------------------------Service------------------------------>
+    <div id="servives">
+      <div class="container">
+        <h1 class="sub-title">
+          My Services
+        </h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, pariatur velit. Assumenda incidunt voluptates sint eaque, nemo vel beatae ratione.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, pariatur velit. Assumenda incidunt voluptates sint eaque, nemo vel beatae ratione.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Designer</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, pariatur velit. Assumenda incidunt voluptates sint eaque, nemo vel beatae ratione.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!---------------------------Portfolio------------------------------>
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">
+      My Work
+    </h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="./images/hackahton.png">
+        <div class="layer">
+          <p>"Winning the was a rewarding experience, highlighting teamwork, innovation, and the drive to achieve excellence."
+          </p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./images/project.png">
+        <div class="layer">
+          <p><div class="layer">
+            <p>"Developed a responsive web page using HTML and CSS, enhancing user experience through clean design and adaptability across devices."
+            </p>
+          </div>
+          </p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="./images/communication.png">
+        <div class="layer">
+          <p>"Strong communication skills, fostering collaboration, clarity, and impactful interactions in diverse environments."
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!---------------------------Contact------------------------------>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title"> Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+          <p> <i class="fa-solid fa-address-book"></i>12334567489</p>
+          <div class="icon">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <button class="btn ">
+          <a href="images/resume.pdf" class="btn" download>
+            Download CV
+        </a>
+        
+        </button>
+        
+        
+        </div>
+        <div class="contact-right">
+          <form action="" name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button class="btn 2" type="submit">Submit</button>
+          </form>
+         <span id="msg">
+          
+         </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwPqNkw7tMQeKhbn7S2H-XKJRE41TDr9saYlsgExwGyqPtfL64wXdJZ_qt6rKdW4ZQt/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(() => {
+              msg.innerHTML = ""
+              
+            }, 5000);
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
+
+
+<!-- this is google sheet script -->
+
+
+<!--
+var sheetName = 'Sheet1'
+var scriptProp = PropertiesService.getScriptProperties()
+
+function intialSetup () {
+  var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet()
+  scriptProp.setProperty('key', activeSpreadsheet.getId())
+}
+
+function doPost (e) {
+  var lock = LockService.getScriptLock()
+  lock.tryLock(10000)
+
+  try {
+    var doc = SpreadsheetApp.openById(scriptProp.getProperty('key'))
+    var sheet = doc.getSheetByName(sheetName)
+
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0]
+    var nextRow = sheet.getLastRow() + 1
+
+    var newRow = headers.map(function(header) {
+      return header === 'timestamp' ? new Date() : e.parameter[header]
+    })
+
+    sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow])
+
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'success', 'row': nextRow }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  catch (e) {
+    return ContentService
+      .createTextOutput(JSON.stringify({ 'result': 'error', 'error': e }))
+      .setMimeType(ContentService.MimeType.JSON)
+  }
+
+  finally {
+    lock.releaseLock()
+  }
+}
+-->
